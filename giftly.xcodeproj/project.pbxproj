@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD849BF92898627B0051E7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849BF82898627B0051E7C0 /* AppDelegate.swift */; };
+		BD849BFB2898627B0051E7C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849BFA2898627B0051E7C0 /* SceneDelegate.swift */; };
+		BD849BFD2898627B0051E7C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849BFC2898627B0051E7C0 /* ViewController.swift */; };
+		BD849C002898627B0051E7C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD849BFE2898627B0051E7C0 /* Main.storyboard */; };
+		BD849C032898627B0051E7C0 /* giftly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD849C012898627B0051E7C0 /* giftly.xcdatamodeld */; };
+		BD849C052898627B0051E7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD849C042898627B0051E7C0 /* Assets.xcassets */; };
+		BD849C082898627B0051E7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD849C062898627B0051E7C0 /* LaunchScreen.storyboard */; };
+		BD849C132898627B0051E7C0 /* giftlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C122898627B0051E7C0 /* giftlyTests.swift */; };
+		BD849C1D2898627B0051E7C0 /* giftlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */; };
+		BD849C1F2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD849C0F2898627B0051E7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD849BED2898627A0051E7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD849BF42898627B0051E7C0;
+			remoteInfo = giftly;
+		};
+		BD849C192898627B0051E7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD849BED2898627A0051E7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD849BF42898627B0051E7C0;
+			remoteInfo = giftly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD849BF52898627B0051E7C0 /* giftly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giftly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD849BF82898627B0051E7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD849BFA2898627B0051E7C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD849BFC2898627B0051E7C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD849BFF2898627B0051E7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD849C022898627B0051E7C0 /* giftly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = giftly.xcdatamodel; sourceTree = "<group>"; };
+		BD849C042898627B0051E7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD849C072898627B0051E7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD849C092898627B0051E7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD849C0E2898627B0051E7C0 /* giftlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD849C122898627B0051E7C0 /* giftlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyTests.swift; sourceTree = "<group>"; };
+		BD849C182898627B0051E7C0 /* giftlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITests.swift; sourceTree = "<group>"; };
+		BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD849BF22898627B0051E7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD849C0B2898627B0051E7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD849C152898627B0051E7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD849BEC2898627A0051E7C0 = {
+			isa = PBXGroup;
+			children = (
+				BD849BF72898627B0051E7C0 /* giftly */,
+				BD849C112898627B0051E7C0 /* giftlyTests */,
+				BD849C1B2898627B0051E7C0 /* giftlyUITests */,
+				BD849BF62898627B0051E7C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD849BF62898627B0051E7C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD849BF52898627B0051E7C0 /* giftly.app */,
+				BD849C0E2898627B0051E7C0 /* giftlyTests.xctest */,
+				BD849C182898627B0051E7C0 /* giftlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD849BF72898627B0051E7C0 /* giftly */ = {
+			isa = PBXGroup;
+			children = (
+				BD849BF82898627B0051E7C0 /* AppDelegate.swift */,
+				BD849BFA2898627B0051E7C0 /* SceneDelegate.swift */,
+				BD849BFC2898627B0051E7C0 /* ViewController.swift */,
+				BD849BFE2898627B0051E7C0 /* Main.storyboard */,
+				BD849C042898627B0051E7C0 /* Assets.xcassets */,
+				BD849C062898627B0051E7C0 /* LaunchScreen.storyboard */,
+				BD849C092898627B0051E7C0 /* Info.plist */,
+				BD849C012898627B0051E7C0 /* giftly.xcdatamodeld */,
+			);
+			path = giftly;
+			sourceTree = "<group>";
+		};
+		BD849C112898627B0051E7C0 /* giftlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD849C122898627B0051E7C0 /* giftlyTests.swift */,
+			);
+			path = giftlyTests;
+			sourceTree = "<group>";
+		};
+		BD849C1B2898627B0051E7C0 /* giftlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */,
+				BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */,
+			);
+			path = giftlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD849BF42898627B0051E7C0 /* giftly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD849C222898627B0051E7C0 /* Build configuration list for PBXNativeTarget "giftly" */;
+			buildPhases = (
+				BD849BF12898627B0051E7C0 /* Sources */,
+				BD849BF22898627B0051E7C0 /* Frameworks */,
+				BD849BF32898627B0051E7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = giftly;
+			productName = giftly;
+			productReference = BD849BF52898627B0051E7C0 /* giftly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD849C0D2898627B0051E7C0 /* giftlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD849C252898627B0051E7C0 /* Build configuration list for PBXNativeTarget "giftlyTests" */;
+			buildPhases = (
+				BD849C0A2898627B0051E7C0 /* Sources */,
+				BD849C0B2898627B0051E7C0 /* Frameworks */,
+				BD849C0C2898627B0051E7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD849C102898627B0051E7C0 /* PBXTargetDependency */,
+			);
+			name = giftlyTests;
+			productName = giftlyTests;
+			productReference = BD849C0E2898627B0051E7C0 /* giftlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD849C172898627B0051E7C0 /* giftlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD849C282898627B0051E7C0 /* Build configuration list for PBXNativeTarget "giftlyUITests" */;
+			buildPhases = (
+				BD849C142898627B0051E7C0 /* Sources */,
+				BD849C152898627B0051E7C0 /* Frameworks */,
+				BD849C162898627B0051E7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD849C1A2898627B0051E7C0 /* PBXTargetDependency */,
+			);
+			name = giftlyUITests;
+			productName = giftlyUITests;
+			productReference = BD849C182898627B0051E7C0 /* giftlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD849BED2898627A0051E7C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BD849BF42898627B0051E7C0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BD849C0D2898627B0051E7C0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD849BF42898627B0051E7C0;
+					};
+					BD849C172898627B0051E7C0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD849BF42898627B0051E7C0;
+					};
+				};
+			};
+			buildConfigurationList = BD849BF02898627A0051E7C0 /* Build configuration list for PBXProject "giftly" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD849BEC2898627A0051E7C0;
+			productRefGroup = BD849BF62898627B0051E7C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD849BF42898627B0051E7C0 /* giftly */,
+				BD849C0D2898627B0051E7C0 /* giftlyTests */,
+				BD849C172898627B0051E7C0 /* giftlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD849BF32898627B0051E7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD849C082898627B0051E7C0 /* LaunchScreen.storyboard in Resources */,
+				BD849C052898627B0051E7C0 /* Assets.xcassets in Resources */,
+				BD849C002898627B0051E7C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD849C0C2898627B0051E7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD849C162898627B0051E7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD849BF12898627B0051E7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD849BFD2898627B0051E7C0 /* ViewController.swift in Sources */,
+				BD849BF92898627B0051E7C0 /* AppDelegate.swift in Sources */,
+				BD849C032898627B0051E7C0 /* giftly.xcdatamodeld in Sources */,
+				BD849BFB2898627B0051E7C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD849C0A2898627B0051E7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD849C132898627B0051E7C0 /* giftlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD849C142898627B0051E7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD849C1D2898627B0051E7C0 /* giftlyUITests.swift in Sources */,
+				BD849C1F2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD849C102898627B0051E7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD849BF42898627B0051E7C0 /* giftly */;
+			targetProxy = BD849C0F2898627B0051E7C0 /* PBXContainerItemProxy */;
+		};
+		BD849C1A2898627B0051E7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD849BF42898627B0051E7C0 /* giftly */;
+			targetProxy = BD849C192898627B0051E7C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD849BFE2898627B0051E7C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD849BFF2898627B0051E7C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD849C062898627B0051E7C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD849C072898627B0051E7C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD849C202898627B0051E7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD849C212898627B0051E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD849C232898627B0051E7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = giftly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfa.giftly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD849C242898627B0051E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = giftly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfa.giftly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD849C262898627B0051E7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfa.giftlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giftly.app/giftly";
+			};
+			name = Debug;
+		};
+		BD849C272898627B0051E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfa.giftlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giftly.app/giftly";
+			};
+			name = Release;
+		};
+		BD849C292898627B0051E7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfa.giftlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = giftly;
+			};
+			name = Debug;
+		};
+		BD849C2A2898627B0051E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mfa.giftlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = giftly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD849BF02898627A0051E7C0 /* Build configuration list for PBXProject "giftly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD849C202898627B0051E7C0 /* Debug */,
+				BD849C212898627B0051E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD849C222898627B0051E7C0 /* Build configuration list for PBXNativeTarget "giftly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD849C232898627B0051E7C0 /* Debug */,
+				BD849C242898627B0051E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD849C252898627B0051E7C0 /* Build configuration list for PBXNativeTarget "giftlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD849C262898627B0051E7C0 /* Debug */,
+				BD849C272898627B0051E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD849C282898627B0051E7C0 /* Build configuration list for PBXNativeTarget "giftlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD849C292898627B0051E7C0 /* Debug */,
+				BD849C2A2898627B0051E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD849C012898627B0051E7C0 /* giftly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD849C022898627B0051E7C0 /* giftly.xcdatamodel */,
+			);
+			currentVersion = BD849C022898627B0051E7C0 /* giftly.xcdatamodel */;
+			path = giftly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD849BED2898627A0051E7C0 /* Project object */;
+}

@@ -176,6 +176,17 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="up4-De-Klu"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="fGC-8R-mm5"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3w-t7-7UV">
+                                <rect key="frame" x="87" y="711" width="241" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="next">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="YeX-xV-Ac0" kind="presentation" modalPresentationStyle="fullScreen" id="XAO-SD-1SM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jC2-Dc-u9t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -185,8 +196,120 @@
             </objects>
             <point key="canvasLocation" x="1430.4347826086957" y="83.705357142857139"/>
         </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="cLI-Gd-OnW">
+            <objects>
+                <viewController id="YeX-xV-Ac0" customClass="PhotoViewController" customModule="giftly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gal-11-Jku">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66r-Pc-Jh4">
+                                <rect key="frame" x="28" y="54" width="358" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="upload a profile picture!">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="35"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8S-fc-duY">
+                                <rect key="frame" x="20" y="207" width="135" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="take a selfie">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeSelfieTapped:" destination="YeX-xV-Ac0" eventType="touchUpInside" id="MtW-bq-3Zt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otg-1q-5U1">
+                                <rect key="frame" x="206" y="207" width="188" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="choose from library">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="choosePhotoTapped:" destination="CNh-Zj-Ecd" eventType="touchUpInside" id="FgO-sn-pyJ"/>
+                                    <action selector="choosePhotoTapped:" destination="YeX-xV-Ac0" eventType="touchUpInside" id="jXM-uW-hwb"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-02 at 9.43.43 AM" translatesAutoresizingMaskIntoConstraints="NO" id="k0Q-q9-fw5">
+                                <rect key="frame" x="87" y="344" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="25r-zi-94n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageDisplay" destination="k0Q-q9-fw5" id="bca-In-4yj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ztm-1Z-KeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="CNh-Zj-Ecd" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2111.594202898551" y="83.705357142857139"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="npN-em-F5N">
+            <objects>
+                <viewController id="M8g-6p-CGS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wRo-Vi-fzB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ANK-c9-Jok"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="mXS-Xo-uUR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIH-8W-YZM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3986" y="548"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="Qs4-bM-eKT">
+            <objects>
+                <viewController id="SaB-GS-5Df" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UMk-GM-hjb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3sg-ig-4ZF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="UbV-aK-v6J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eHg-hN-dLk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3986" y="-60"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="sv1-5m-wIj">
+            <objects>
+                <tabBarController id="TJx-6A-NkN" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IR0-yx-rW4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SaB-GS-5Df" kind="relationship" relationship="viewControllers" id="WSP-Db-SVG"/>
+                        <segue destination="M8g-6p-CGS" kind="relationship" relationship="viewControllers" id="7KG-UX-NCU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="chh-lU-IV1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3098" y="243"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2022-08-02 at 9.43.43 AM" width="374" height="364"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

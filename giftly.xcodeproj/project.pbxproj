@@ -17,6 +17,7 @@
 		BD849C132898627B0051E7C0 /* giftlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C122898627B0051E7C0 /* giftlyTests.swift */; };
 		BD849C1D2898627B0051E7C0 /* giftlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */; };
 		BD849C1F2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */; };
+		BDE05EE728996636008131C7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE05EE628996636008131C7 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BD849C182898627B0051E7C0 /* giftlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITests.swift; sourceTree = "<group>"; };
 		BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDE05EE628996636008131C7 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				BD849C062898627B0051E7C0 /* LaunchScreen.storyboard */,
 				BD849C092898627B0051E7C0 /* Info.plist */,
 				BD849C012898627B0051E7C0 /* giftly.xcdatamodeld */,
+				BDE05EE628996636008131C7 /* PhotoViewController.swift */,
 			);
 			path = giftly;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				BD849BF92898627B0051E7C0 /* AppDelegate.swift in Sources */,
 				BD849C032898627B0051E7C0 /* giftly.xcdatamodeld in Sources */,
 				BD849BFB2898627B0051E7C0 /* SceneDelegate.swift in Sources */,
+				BDE05EE728996636008131C7 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

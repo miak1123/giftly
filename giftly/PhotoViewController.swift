@@ -17,6 +17,8 @@ class PhotoViewController: UIViewController, UIImagePickerControllerDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
+        
+        imageDisplay.layer.cornerRadius = imageDisplay.frame.size.width/2
     }
 
    
@@ -40,7 +42,6 @@ class PhotoViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
         imagePicker.dismiss(animated: true, completion: nil)
     }
-
     }
     
 

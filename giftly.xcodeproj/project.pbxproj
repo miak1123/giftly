@@ -18,6 +18,7 @@
 		BD849C1D2898627B0051E7C0 /* giftlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */; };
 		BD849C1F2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */; };
 		BDE05EE728996636008131C7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE05EE628996636008131C7 /* PhotoViewController.swift */; };
+		BDE05EE9289978BB008131C7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE05EE8289978BB008131C7 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITests.swift; sourceTree = "<group>"; };
 		BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDE05EE628996636008131C7 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		BDE05EE8289978BB008131C7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +107,13 @@
 			children = (
 				BD849BF82898627B0051E7C0 /* AppDelegate.swift */,
 				BD849BFA2898627B0051E7C0 /* SceneDelegate.swift */,
-				BD849BFC2898627B0051E7C0 /* ViewController.swift */,
 				BD849BFE2898627B0051E7C0 /* Main.storyboard */,
 				BD849C042898627B0051E7C0 /* Assets.xcassets */,
 				BD849C062898627B0051E7C0 /* LaunchScreen.storyboard */,
 				BD849C092898627B0051E7C0 /* Info.plist */,
 				BD849C012898627B0051E7C0 /* giftly.xcdatamodeld */,
+				BD849BFC2898627B0051E7C0 /* ViewController.swift */,
+				BDE05EE8289978BB008131C7 /* SignUpViewController.swift */,
 				BDE05EE628996636008131C7 /* PhotoViewController.swift */,
 			);
 			path = giftly;
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE05EE9289978BB008131C7 /* SignUpViewController.swift in Sources */,
 				BD849BFD2898627B0051E7C0 /* ViewController.swift in Sources */,
 				BD849BF92898627B0051E7C0 /* AppDelegate.swift in Sources */,
 				BD849C032898627B0051E7C0 /* giftly.xcdatamodeld in Sources */,

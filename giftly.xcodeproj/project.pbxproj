@@ -17,6 +17,7 @@
 		BD849C132898627B0051E7C0 /* giftlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C122898627B0051E7C0 /* giftlyTests.swift */; };
 		BD849C1D2898627B0051E7C0 /* giftlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */; };
 		BD849C1F2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */; };
+		BDC3C61B2899926D00941DB0 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3C61A2899926D00941DB0 /* UserInfoViewController.swift */; };
 		BDE05EE728996636008131C7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE05EE628996636008131C7 /* PhotoViewController.swift */; };
 		BDE05EE9289978BB008131C7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE05EE8289978BB008131C7 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		BD849C182898627B0051E7C0 /* giftlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD849C1C2898627B0051E7C0 /* giftlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITests.swift; sourceTree = "<group>"; };
 		BD849C1E2898627B0051E7C0 /* giftlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC3C61A2899926D00941DB0 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		BDE05EE628996636008131C7 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		BDE05EE8289978BB008131C7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				BD849C012898627B0051E7C0 /* giftly.xcdatamodeld */,
 				BD849BFC2898627B0051E7C0 /* ViewController.swift */,
 				BDE05EE8289978BB008131C7 /* SignUpViewController.swift */,
+				BDC3C61A2899926D00941DB0 /* UserInfoViewController.swift */,
 				BDE05EE628996636008131C7 /* PhotoViewController.swift */,
 			);
 			path = giftly;
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE05EE9289978BB008131C7 /* SignUpViewController.swift in Sources */,
+				BDC3C61B2899926D00941DB0 /* UserInfoViewController.swift in Sources */,
 				BD849BFD2898627B0051E7C0 /* ViewController.swift in Sources */,
 				BD849BF92898627B0051E7C0 /* AppDelegate.swift in Sources */,
 				BD849C032898627B0051E7C0 /* giftly.xcdatamodeld in Sources */,

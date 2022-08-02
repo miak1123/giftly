@@ -134,7 +134,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="password is not over 8 characters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4m-Sq-rpl">
-                                <rect key="frame" x="57" y="595" width="318" height="50"/>
+                                <rect key="frame" x="57" y="476" width="318" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -158,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="721.73913043478262" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--User Info View Controller-->
         <scene sceneID="eNZ-oR-YxR">
             <objects>
-                <viewController id="kHA-C2-0cZ" sceneMemberID="viewController">
+                <viewController id="kHA-C2-0cZ" customClass="UserInfoViewController" customModule="giftly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MvM-WD-xtd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,7 +205,8 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="nextTapped:" destination="sdP-Dj-26v" eventType="touchUpInside" id="dMa-RI-FHw"/>
+                                    <action selector="nextTapped:" destination="kHA-C2-0cZ" eventType="touchUpInside" id="0yf-CX-SX6"/>
+                                    <action selector="nextTapped:" destination="sdP-Dj-26v" eventType="touchUpInside" id="fNW-gS-atQ"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qK5-Ok-EJL">
@@ -221,11 +222,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name is not over 2 characters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QH5-g0-nwe">
+                                <rect key="frame" x="48" y="295" width="318" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jC2-Dc-u9t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="nameTextField" destination="qK5-Ok-EJL" id="hZT-pQ-Hsh"/>
                         <segue destination="YeX-xV-Ac0" kind="presentation" identifier="segue2" modalPresentationStyle="fullScreen" id="zuX-hu-Cgr"/>
                     </connections>
                 </viewController>
